@@ -46,7 +46,7 @@ add_filter( 'plugin_action_links', 'liberachat_plugin_links', 10, 5 );
 function liberachat_set_defaults()
 {
     $config = array(
-	'liberachat_server'    => 'https://web.libera.chat',
+	    'liberachat_server'    => 'https://web.libera.chat',
         'liberachat_nick'      => 'Guest?',
         'liberachat_style'     => 'default',
         'liberachat_chan'      => '#libera',
