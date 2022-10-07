@@ -21,7 +21,7 @@ function liberachat_page( $atts ) {
         $url = $url."".$channels;
 
 ?>
-<center><iframe marginwidth="0" marginheight="0" src="<?php echo $url; ?>"
+<center><iframe marginwidth="0" marginheight="0" src="<?php echo esc_url( $url ); ?>"
 <?php
     if (get_option('liberachat_width') != '')
         echo "width=\"".get_option('liberachat_width')."\""; ?>
