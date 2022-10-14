@@ -24,11 +24,10 @@ function liberachat_page( $atts ) {
 <center><iframe marginwidth="0" marginheight="0" src="<?php echo esc_url( $url ); ?>"
 <?php
     if (get_option('liberachat_width') != '')
-        echo "width=\"".get_option('liberachat_width')."\""; ?>
+         echo esc_attr ('width'), ('='), ('"'.get_option('liberachat_width').'"'); ?>
  <?php
     if (get_option('liberachat_height') != '')
-        echo "height=\"".get_option('liberachat_height')."\"";
-?>
+         echo esc_attr ('height'), ('='), ('"'.get_option('liberachat_height').'"'); ?>
  scrolling="no" frameborder="0"></iframe></center>
 <?php
 }
