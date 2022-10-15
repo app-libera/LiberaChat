@@ -3,8 +3,8 @@ Contributors: kiwichat
 Tags: irc, chat, webchat, kiwi, kiwiirc, nextclient, libera, libera chat, liberachat, embed, embedded, live chat, irc client, widget, app-liberachat
 Donate link: https://app-libera.github.io
 Requires at least: 6.0.0
-Tested up to: 6.0.1
-Requires PHP: 5.6
+Tested up to: 6.0.2
+Requires PHP: 7.4
 Stable tag: 1.0.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
