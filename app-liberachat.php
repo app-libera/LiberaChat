@@ -4,7 +4,7 @@
  * Plugin URI:        https://github.com/app-libera/LiberaChat
  * Description:       The App LiberaChat plugin for WordPress allows you to use the chat service of the Libera.Chat network on your WordPress site.
  * Author:            KiwiChat
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author URI:        https://app-libera.github.io
  * License:           GPLv3 or later
  * License URI:       https://www.gnu.org/licenses/gpl-3.0.html
@@ -13,7 +13,7 @@
 
 defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 /* Defines plugin's root version/path/urlbase */
-define( 'APP_LIBERA_CHAT_VERSION', '1.0.0' );
+define( 'APP_LIBERA_CHAT_VERSION', '1.0.1' );
 define( 'APP_LIBERA_CHAT_PATH', plugin_dir_path( __FILE__ ) );
 define( 'APP_LIBERA_CHAT_URLBASE', 'https://web.libera.chat' );
 
