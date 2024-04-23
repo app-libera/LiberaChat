@@ -2,10 +2,10 @@
 Contributors: kiwichat
 Tags: irc, chat, webchat, kiwi, kiwiirc, nextclient, libera, libera chat, liberachat, embed, embedded, live chat, irc client, widget, app-liberachat
 Donate link: https://app-libera.github.io
-Requires at least: 6.0.0
-Tested up to: 6.1
-Requires PHP: 7.4
-Stable tag: 1.0.1
+Requires at least: 6.1
+Tested up to: 6.5
+Requires PHP: 7.0
+Stable tag: 1.0.2
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,7 +15,7 @@ The App LiberaChat plugin for WordPress allows you to use the chat service of th
 
 == Description ==
 
-How to use App LiberaChatâ€¦
+How to use App LiberaChat…
 To use this plugin:
 1. simply download and extract it into your plugins folder
 2. configure your settings in the WordPress dashboard
@@ -92,6 +92,9 @@ Initial release.
 = 1.0.1 =
 Up to: 6.1
 
+= 1.0.2 =
+Corrections of small errors.
+
 == Upgrade Notice ==
 
-Stable version: 1.0.1
+Stable version: 1.0.2

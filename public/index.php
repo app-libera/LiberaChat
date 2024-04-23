@@ -20,7 +20,7 @@ function liberachat_page( $atts ) {
 <center><iframe marginwidth="0" marginheight="0" src="<?php echo esc_url( $url ); ?>"
 <?php
     if (get_option('liberachat_width') != '')
-	echo "width=\"".esc_attr( get_option('liberachat_width'))."\""; ?>
+	    echo "width=\"".esc_attr( get_option('liberachat_width'))."\""; ?>
  <?php
     if (get_option('liberachat_height') != '')
         echo "height=\"".esc_attr( get_option('liberachat_height'))."\""; ?>
